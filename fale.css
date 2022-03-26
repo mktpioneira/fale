@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 1280px) {
+    div.are {
+        top: 0;
+        height: 100vh;
+    }
+    div.are div.texto {
+        position: relative;
+        width: 100%;
+    }
+    div.are div.texto p {
+        top: 0px;
+    }
+    div.are form {
+        position: absolute;
+        display: block;
+        top: 850px;
+        left: 0;
+        background: none;
+    }
+    div.are form input {
+        background-color: #000;
+        color: #fff;
+        width: 200px;
+    }
+}
+
+@media(min-width: 1800px) {
+    body main {
+        height: 100vh;
+        left: 0;
+    }
+    main div.are {
+        width: 70%;
+    }
+}
+
+body {
+    right: 0;
+}
+
+main {
+    position: relative;
+    top: 150px;
+    height: 0;
+}
+
+.are {
+    position: relative;
+    display: flex;
+    top: 200px;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    height: 400px;
+    background-color: #889c1e;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.are .texto {
+    width: 50%;
+    text-align: justify;
+}
+
+.are .texto p {
+    position: relative;
+    float: left;
+    display: flex;
+}
+
+.are form {
+    position: relative;
+    height: 300px;
+    width: 30%;
+    align-items: center;
+    top: 0px;
+    background-color: #030303a9;
+    border-radius: 16px;
+}
+
+.are form input {
+    width: 350px;
+    padding: 10px;
+    font-size: 13pt;
+    margin: 20px;
+    display: flex;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+}
+
+footer.rodape {
+    top: 500px;
+}
+
+.are form button {
+    position: relative;
+    margin: 10px;
+    left: 10px;
+    width: 100px;
+    padding: 10px;
+    font-size: 12pt;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgba(104, 122, 3, 0.541);
+    color: #fff;
+    cursor: pointer;
+}
+
+.are form button:hover {
+    background-color: #889c1e;
+}
+
+.andress {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    width: 50%;
+    height: 700px;
+    justify-content: center;
+    margin: auto;
+    top: 300px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.andress #caixa_1 {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    top: 100px;
+    float: left;
+    border-radius: 6px;
+    background-color: rgba(104, 122, 3, 0.541);
+    height: 250px;
+    transition: 0.6s all ease-in-out;
+    cursor: default;
+    box-shadow: 0px 0px 2px #000;
+}
+
+.andress #caixa_1:hover {
+    background-color: #889c1e;
+    color: #fff;
+    box-shadow: 0px 0px 120px #889c1e;
+    transform: scale(2);
+    z-index: 100;
+}
+
+#caixa_1 #contact {
+    position: relative;
+    top: 50px;
+}
+
+#caixa_1 #contact:hover {
+    position: relative;
+    top: 50px;
+}
+
+#caixa_1 #contact i {
+    position: relative;
+    top: 60px;
+    font-size: 20pt;
+    left: 10%;
+    transform: rotate(90deg);
+}
+
+.andress #caixa_2 {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    top: 400px;
+    float: left;
+    border-radius: 6px;
+    background-color: rgba(104, 122, 3, 0.541);
+    height: 250px;
+    transition: 0.6s all ease-in-out;
+    cursor: default;
+}
+
+.andress #caixa_2:hover {
+    background-color: #889c1e;
+    color: #fff;
+    box-shadow: 0px 0px 120px #889c1e;
+    transform: scale(2);
+    z-index: 100;
+}
+
+#caixa_2 #contact {
+    position: relative;
+    top: 50px;
+}
+
+#caixa_2 #contact i {
+    position: relative;
+    top: 60px;
+    font-size: 20pt;
+    left: 10%;
+    transform: rotate(90deg);
+}
